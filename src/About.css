@@ -1,0 +1,36 @@
+.container-about{
+    width: 1200px;
+    height: 750px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background:  #F5F5F5;
+}
+.title-about{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 44px;
+    margin-left: 500px;
+    padding-top: 50px; 
+    color: #000000; 
+}
+.para-about{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+margin: 60px;
+
+padding-top: 10px; 
+color: #000000;
+}
+.title-team{
+    font-style: italic;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+margin-left: 60px;
+margin-top: 150px;
+
+color: #000000;
+}
