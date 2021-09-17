@@ -1,0 +1,57 @@
+.title-port{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 44px;
+    margin-left: 700px;
+    margin-top: 40px; 
+    color: #000000; 
+}
+.container-port{
+    width: 1200px;
+    height: 505px;
+    margin-top: 40px;
+    margin-left: 150px;
+    background:  #F5F5F5;
+}
+.lab-port{
+    font-style: italic;
+font-weight: normal;
+font-size: 22px;
+line-height: 24px;
+    padding-top: 20px;
+    margin-left: 450px;
+    color: #000000;
+}
+.card-port{
+    margin-top: 100px;
+    width: 100px;
+    height: 267.89px;
+    margin-left: 200px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 278px;
+    border-radius: 0px; 
+    background:#FFFFFF;
+    box-shadow: 0.5px ;
+    float: left;
+}
+.label-port{
+    font-style: italic;
+font-weight: normal;
+font-size: 22px;
+line-height: 24px;
+    padding-top: 20px;
+    margin-left: 500px;
+    color: #000000;
+    margin-top: 450px;
+}
+.img-port{
+    width: 250px;
+    height: 171.73px;
+    margin-top:50px;
+    border-radius: 0;
+    margin-left: 5px;
+}

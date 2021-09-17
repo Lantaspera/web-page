@@ -1,0 +1,51 @@
+.team-container{
+    width: 105px;
+    height: 300px;
+    margin-top: 30px;
+  
+}
+.dp-about{
+    
+width: 105px;
+height: 105px; 
+background: gray;
+border-radius: 50%;
+
+
+
+ } 
+.name-about{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  
+}
+.post-about{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  
+
+   
+   
+
+}
+.team-div{
+   width: 100%;
+   margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

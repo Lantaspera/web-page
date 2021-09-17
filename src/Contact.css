@@ -1,0 +1,87 @@
+.container-contact{
+    width: 1200px;
+    height: 550px;
+    margin-top: 40px;
+    margin-left: 150px;
+    
+}
+.title-contact{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 44px;
+    margin-left: 60px;
+    padding-top: 50px; 
+    color: #000000; 
+}
+.para-contact{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 60px;
+    padding-top: 15px; 
+    color: #000000;
+}
+.para1-contact{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 60px; 
+    color: #000000;
+}
+.form-container{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.box-contact{
+    
+width: 456px;
+height: 38px;
+
+
+background: #FFFFFF;
+
+
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+
+}
+.colm-contact{
+    padding-left: 30px;
+}
+.message-box{
+    width: 945px;
+height: 70px;
+
+
+background: #FFFFFF;
+
+
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+}
+.text-contact{
+    font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+
+color: #000000;
+
+}
+.btn-contact{
+    width: 77px;
+    height: 38px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background: #3898EC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    color: #FFFFFF;
+
+}
