@@ -9,8 +9,8 @@ const Navbar = () => {
          <div style={{position: 'fixed',
          padding : '5rem 0',
          
-               width: '99vw',
-               height: '135px',opacity: '0.44',background:'black',zIndex:'10'}}
+               width: '100%',
+               height: '115px',opacity: '0.44',background:'black',zIndex:'10'}}
          ></div>
 
             <section style={{ 
@@ -19,7 +19,7 @@ const Navbar = () => {
                width: '100vw',
                
                height: '90px',
-               margin: '0 auto',
+               margin: '0 ',
                
                display: 'initial',
                zIndex:'10'
