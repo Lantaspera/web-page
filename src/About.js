@@ -8,7 +8,7 @@ function About() {
    
 
     return (
-        <div className="row">
+        <div className="row" id="about-section">
             <div className="col-12 col-lg-6">
                 <div className="container-about">
                     <div className="title-about">About us</div>

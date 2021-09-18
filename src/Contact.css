@@ -1,25 +1,32 @@
+#contact-section{
+    width: 100vw;
+    background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .container-contact{
-    width: 1200px;
+    width: 100vw;
     height: 550px;
-    margin-top: 40px;
-    margin-left: 150px;
+   padding-top: 50px;
+   align-items:flex-end;
+  
     
 }
 .title-contact{
-    font-style: italic;
-    font-weight: normal;
-    font-size: 35px;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 75px;
     line-height: 44px;
-    margin-left: 60px;
-    padding-top: 50px; 
     color: #000000; 
 }
 .para-contact{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    width: 100vw;
+    font-style: italic;
+font-weight: normal;
+font-size: 22px;
     line-height: 20px;
-    margin-left: 60px;
+    text-align: center;
     padding-top: 15px; 
     color: #000000;
 }
@@ -39,11 +46,7 @@
     
 width: 456px;
 height: 38px;
-
-
 background: #FFFFFF;
-
-
 border: 1px solid #CCCCCC;
 box-sizing: border-box;
 
@@ -63,13 +66,11 @@ border: 1px solid #CCCCCC;
 box-sizing: border-box;
 }
 .text-contact{
-    font-style: italic;
+font-style: italic;
 font-weight: normal;
 font-size: 14px;
 line-height: 28px;
-
 color: #000000;
-
 }
 .btn-contact{
     width: 77px;

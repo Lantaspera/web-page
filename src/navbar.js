@@ -6,16 +6,16 @@ const Navbar = () => {
     const [show, setShow] = useState(false);
     return (
         <div className="img-bg">
-         <div style={{position: 'absolute',
+         <div style={{position: 'fixed',
          padding : '5rem 0',
-         marginTop:'2rem',
+         
                width: '99vw',
-               height: '90px',opacity: '0.44',background:'black',zIndex:'10'}}
+               height: '135px',opacity: '0.44',background:'black',zIndex:'10'}}
          ></div>
 
             <section style={{ 
                padding : '2rem 0',
-               position: 'absolute',
+               position: 'fixed',
                width: '100vw',
                
                height: '90px',
@@ -48,19 +48,19 @@ const Navbar = () => {
     <div class= {`collapse navbar-collapse ${show ? "show" : ""}`} >
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="#home-section">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SERVICES</a>
+          <a class="nav-link" href="#services-section">SERVICES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">PORTFOLIO</a>
+          <a class="nav-link" href="#portfolio-section">PORTFOLIO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT</a>
+          <a class="nav-link" href="#about-section">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT</a>
+          <a class="nav-link" href="#contact-section">CONTACT</a>
         </li>
         
         

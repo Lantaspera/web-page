@@ -16,12 +16,12 @@ const fadeImages = [
 
     function ImageFront() {
     return (
-        <div className="row">
+        <div className="row" id="home-section">
                     <div className="col-12 col-lg-6">
         
       <div   style={{
         height: '100vh',
-        width: '99vw',
+        width: '100vw',
         
         backgroundSize: 'cover',
         zIndex:'-1'
@@ -66,7 +66,7 @@ const fadeImages = [
         </Fade>
         <div className="home-welcome">
           <div className="bg-welcome">
-          <h1 class="title-welcome" >Welcome to Lantaspera</h1>
+          <h1 class="title-welcome title-center" >Welcome to Lantaspera</h1>
           <p class="caption-welcome"  >We are dedicated to provide the latest cutting edge technology solutions to our Clients and Organizations Across varied Industry domains.</p>
           <button className="btn-image" >Lets get started</button>
           </div>

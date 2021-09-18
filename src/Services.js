@@ -9,11 +9,13 @@ function Services() {
     {id:6, title:"Social Media Campaign", feedpic:"/images/img-6.jpg"}]);
     return (
        
-        <div className="row">
+        <div className="row" id="services-section">
         <div className="col-12 col-lg-6">
-            <h2 className="title-service">Services</h2>
+        
+            <h2 className="title-service text-center">Services</h2>
+            <div className="lab-service text-center">What we provide for you</div>
             <div className="container-card">
-            <div className="lab-service">what be provide for you</div>
+            
             
             {data.map((data)=>(
             <div className="card" key={data.id}>  

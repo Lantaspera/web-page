@@ -5,12 +5,12 @@ function Contact() {
     return (
         <div className="row">
         <div className="col-12 col-lg-6">
-        <div className="container-contact">
-            <h3 className="title-contact">Contact form</h3>
-            <p className="para-contact">This form uses grid for its layout. Adjust and reorganize the divs inside the Form Grid to fit 1 or 2 grid columns as needed.</p>
+        <div className="container-contact" id="contact-section">
+            <h3 className="title-contact text-center">Contact form</h3>
+            <p className="para-contact">If you'd like to work together on a new project or have any questions then please get in touch - We'd love to hear from you!</p>
             <p className="para1-contact">Fields marked with an asterisk (*) are required.</p>
             <form>
-                <div className="form-container">
+                <div className="form-container ">
                 <table>
                     <tbody>
                         <tr >
@@ -23,7 +23,7 @@ function Contact() {
                         </tr>
                         <tr >
                             <td>
-                                <input className="box-contact" type="text" />
+                                <input className="box-contact " type="text" />
                             </td>
                             <td className="colm-contact">
                                 <input className="box-contact" type="text" />
