@@ -12,8 +12,8 @@ a {
 .navbar-bg {
    
     padding: 2rem 0;
-    position: absolute;
-    width: 99vw;
+    position: fixed;
+    width: 100vw;
     height: 90px;
     margin: 0 auto; 
 }

@@ -4,11 +4,12 @@ import ImagePort from './ImagePort'
 
 function Portfolio() {
     return (
-        <div className="row">
+        <div className="row" id="portfolio-section">
             <div className="col-12 col-lg-6">
-            <h2 className="title-port"> portfolio</h2>
-            <div className="container-port">
+            <h2 className="title-port "> Portfolio</h2>
             <div className="lab-port">What we have done so far</div>
+            <div className="container-port">
+            
             <ImagePort/>
             
             
