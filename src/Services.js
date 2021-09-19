@@ -6,7 +6,10 @@ function Services() {
     {id:3, title:"App Development", feedpic:"/images/img-3.jpg"},
     {id:4, title:"Graphic Design",feedpic:"/images/img-4.jpg"},
     {id:5, title:"Digital Marketing", feedpic:"/images/img-5.jpg"},
-    {id:6, title:"Social Media Campaign", feedpic:"/images/img-6.jpg"}]);
+    {id:6, title:"Social Media Campaign", feedpic:"/images/img-6.jpg"},
+    {id:3, title:"App Development", feedpic:"/images/img-3.jpg"},
+    {id:7, title:"Web Design", feedpic:"/images/img-2.jpg"},]);
+    
     return (
        
         <div className="row" id="services-section">

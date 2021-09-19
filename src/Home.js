@@ -22,7 +22,7 @@ function Home() {
                     
                         <ImageFront/>
                        <Services/>
-                       <Portfolio/>
+                       {/* <Portfolio/> */}
                        <About/>
                        <Contact/>
                        <FooterSect/>
