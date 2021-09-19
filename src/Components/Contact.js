@@ -11,7 +11,7 @@ function Contact() {
             <p className="para1-contact">Fields marked with an asterisk (*) are required.</p>
             <form>
                 <div className="form-container ">
-                <table>
+                <table className="hai">
                     <tbody>
                         <tr >
                             <td>
@@ -50,10 +50,12 @@ function Contact() {
                     </tbody>
                 </table>
                 <br/>
+                <div className="message-text">
                 <div className="text-contact">Message</div>
                 
-                <input className="message-box" type="text" />
+                <textarea className="message-box" type="text" />
                 <div>
+                </div>
                 <button className="btn-contact">Submit</button>
                 </div>
             </div>

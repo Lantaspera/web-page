@@ -9,7 +9,8 @@ background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, F
     width: 100vw;
     height: 550px;
    padding-top: 120px;
-   align-items:flex-end;
+   /* align-items:flex-end; */
+   
   
     
 }
@@ -35,8 +36,8 @@ font-size: 22px;
     font-weight: normal;
     font-size: 14px;
     font-style: italic;
-    margin-left: 60px; 
-    color: #000000;
+    margin-left: 18.4%; 
+    color: #e93636;
 }
 .form-container{
     margin-left: 60px;
@@ -76,7 +77,7 @@ color: #000000;
     width: 77px;
     height: 38px;
     margin-top: 30px;
-    margin-left: 450px;
+    margin-left: 35%;
     background: #3898EC;
     font-style: normal;
     font-weight: normal;
@@ -85,4 +86,10 @@ color: #000000;
     border: none;
     color: #FFFFFF;
 
+}
+.hai{
+    margin-left: 15%;
+}
+.message-text{
+    margin-left: 15%;
 }
