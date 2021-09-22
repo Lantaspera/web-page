@@ -1,6 +1,6 @@
 .home-welcome {
     width: 68%;
-    float: left;
+    
     text-align: center;
     padding: 0 200px;
     position: absolute;
@@ -9,7 +9,7 @@
 .bg-welcome {
     float: left;
     width: 100%;
-    height: 250px;
+    height: 300px;
     background: rgba(0, 167, 141,0.7);
     padding: 30px;
     margin-top: -382px;
@@ -18,28 +18,35 @@
    
     
 
-.home-welcome h1 {
-    margin: 0 0 10px;
-    padding: 0;
-    font-size: 50px;
+.home-welcome1 {
+
+
+     font-size: 35px; 
     font-weight: 700;
     color: #fff;
     text-shadow: 0 1px 2px rgb(0 0 0 / 40%);
-    z-index:7 ;
 }
-.title-welcome{
-     
-    visibility: visible; 
-    animation-delay: 0.4s; 
-    animation-name: flipInX;
-}
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+   
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+
 .caption-welcome{
-    visibility: visible;
-     animation-delay: 0.6s; 
-     animation-name: flipInX;
-     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
     line-height: 20px;
     font-size: 16px;
     font-weight: 400;
