@@ -1,18 +1,24 @@
 import React from 'react'
-import Home from './Components/Home'
+import HomePage from './Components/HomePage'
 
-
+import { useEffect } from 'react'
 
 
 const App = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <div>
-     
-    <div>
-    <Home/>
-    </div>
     
-    </div>
+    
+ 
+    
+  <div>
+    <HomePage/>
+  </div>
+  
+    
     
   )
 }

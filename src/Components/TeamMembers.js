@@ -16,7 +16,7 @@ function TeamMembers() {
                     
                     <Carousel width={1000} showArrows={false} showStatus={false} showThumbs={false} axis={"horizontal"} autoPlay={true} 
                     swipeable={true} autoFocus={true}
-                    interval={1500} infiniteLoop autoFocus centerMode centerSlidePercentage={25} >
+                    interval={2500} infiniteLoop autoFocus centerMode centerSlidePercentage={25} >
 
                     
                     <div className="team-container">

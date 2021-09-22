@@ -1,9 +1,10 @@
-import { Fade } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import './ImageFront.css'
 
  import React from 'react'
  import Navbar from './navbar'
+
 const fadeImages = [
     '/images/image-1.jpg',
     '/images/image-5.jpg',
@@ -11,10 +12,12 @@ const fadeImages = [
     '/images/image-4.jpg'
     
   ];
-
+  
+  var ReactRotatingText = require('react-rotating-text');
   
 
     function ImageFront() {
+     
     return (
         <div className="row" id="home-section">
                     <div className="col-12 col-lg-6">
@@ -28,8 +31,9 @@ const fadeImages = [
         
    }}>
        <Navbar/>
-       <Fade  duration= {1200}
-    transitionDuration= {1000}
+    
+    <Fade  duration= {1200}
+    transitionDuration= {2500}
     infinite= {true}
     arrows={false} >
         
@@ -65,10 +69,12 @@ const fadeImages = [
           
         </Fade>
         <div className="home-welcome">
-          <div className="bg-welcome">
-          <h1 class="title-welcome title-center" >Welcome to Lantaspera</h1>
+          <div className="bg-welcome" >
+          <div className="home-welcome1"><ReactRotatingText   color={"white"} 
+          items={['welcome to Lantaspera', 'The iconic symbole of tech', 'join with us']} /></div>
           <p class="caption-welcome"  >We are dedicated to provide the latest cutting edge technology solutions to our Clients and Organizations Across varied Industry domains.</p>
           <button className="btn-image" >Lets get started</button>
+          </div>
           </div>
           
         </div>
@@ -78,7 +84,7 @@ const fadeImages = [
         
       </div>
       </div>
-      </div>
+  
       
     );
   }
