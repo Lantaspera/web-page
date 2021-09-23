@@ -2,7 +2,7 @@ import React from 'react'
 import './team.css'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
 function TeamMembers() {
     
@@ -12,104 +12,64 @@ function TeamMembers() {
     
     return (
         
-                    <div className="team-div">
-                    
-                    <Carousel width={1000} showArrows={false} showStatus={false} showThumbs={false} axis={"horizontal"} autoPlay={true} 
-                    swipeable={true} autoFocus={true}
-                    interval={2500} infiniteLoop autoFocus centerMode centerSlidePercentage={25} >
-
-                    
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-2.jpg" />
-                        <h4 className="name-about">Akshay Nambiar PV</h4>
-                        <h3 className="post-about">CEO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-3.jpg" />
-                        <h4 className="name-about">Azhar Kalarickal</h4>
-                        <h3 className="post-about">CTO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-4.jpg" />
-                        <h4 className="name-about">Abdul Basith C</h4>
-                        <h3 className="post-about">CTO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-5.jpg" />
-                        <h4 className="name-about"> Anusha Surendran</h4>
-                        <h3 className="post-about">CFO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-6.jpg" />
-                        <h4 className="name-about">Donna Susan Samuel</h4>
-                        <h3 className="post-about">CIO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/image-1.jpg" />
-                        <h4 className="name-about">Gagana</h4>
-                        <h3 className="post-about">CDO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-1.jpeg" />
-                        <h4 className="name-about">Adrid Sadanand P</h4>
-                        <h3 className="post-about">COO</h3>
-                        <h3 className="post-about">Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-2.jpg" />
-                        <h4 className="name-about">Akshay Nambiar PV</h4>
-                        <h3 className="post-about">CEO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-3.jpg" />
-                        <h4 className="name-about">Azhar Kalarickal</h4>
-                        <h3 className="post-about">CTO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-4.jpg" />
-                        <h4 className="name-about">Abdul Basith C</h4>
-                        <h3 className="post-about">CTO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-5.jpg" />
-                        <h4 className="name-about"> Anusha Surendran</h4>
-                        <h3 className="post-about">CFO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-6.jpg" />
-                        <h4 className="name-about">Donna Susan Samuel</h4>
-                        <h3 className="post-about">CIO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/image-1.jpg" />
-                        <h4 className="name-about">Gagana</h4>
-                        <h3 className="post-about">CDO</h3>
-                        <h3 className="post-about">Co-Founter</h3>
-                    </div>
-                    <div className="team-container">
-                        <img  className="dp-about" alt="dp-about" src="/images/img-1.jpeg" />
-                        <h4 className="name-about">Adrid Sadanand P</h4>
-                        <h3 className="post-about">COO</h3>
-                        <h3 className="post-about">Founter</h3>
-                    </div>
-                    </Carousel>  
-                    
-                
-        
+        <div class="container">
+        <h1 class="heading">Our Team</h1>
+    
+        <div class="profiles">
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Akshay <br/> Nambiar PV </h3>
+            <h5>CEO</h5>
+            <p>social media</p>
+           
             
-                             
-                </div>
+          </div>
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Adrid <br/>Sadanand P</h3>
+            <h5>COO</h5>
+            <p>social media</p>
+          </div>
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Azhar <br/>Ali K</h3>
+            <h5>CTO</h5>
+            <p>social media</p>
+          </div>
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Abdul <br/>Basith C</h3>
+            <h5>CAO</h5>
+            <p>social media</p>
+          </div>
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Donna <br/>Susan Samuel</h3>
+            <h5>CIO</h5>
+            <p>social media</p>
+          </div>
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Anusha <br/>Surendran</h3>
+            <h5>CFO</h5>
+            <p>social media</p>
+          </div>
+          <div class="profile">
+            <img src="/images/pp.jpg" class="profile-img"/>
+    
+            <h3 class="user-name">Gagana <br/>Karpoorachalil</h3>
+            <h5>CDO</h5>
+            <p>social media </p>
+          </div>
+
+        </div>
+      </div>
     
     )
 }

@@ -71,7 +71,7 @@ const fadeImages = [
         <div className="home-welcome">
           <div className="bg-welcome" >
           <div className="home-welcome1"><ReactRotatingText   color={"white"} 
-          items={['welcome to Lantaspera', 'The iconic symbole of tech', 'join with us']} /></div>
+          items={['Welcome to Lantaspera', 'The iconic symbol of tech', 'Join with us']} /></div>
           <p class="caption-welcome"  >We are dedicated to provide the latest cutting edge technology solutions to our Clients and Organizations Across varied Industry domains.</p>
           <button className="btn-image" >Lets get started</button>
           </div>
