@@ -1,13 +1,13 @@
 import React from 'react'
 import './Contact.css'
-
 function Contact() {
     return (
         <div className="row">
         <div className="col-12 col-lg-6">
         <div className="container-contact" id="contact-section">
-            <h3 className="title-contact text-center">Contact form</h3>
-            <p className="para-contact">If you'd like to work together on a new project or have any questions then please get in touch - We'd love to hear from you!</p>
+        <div className="form">
+            <p className="title-contact ">Contact form</p>
+            <p className="para-contact">Drop a message !</p>
             <p className="para1-contact">Fields marked with an asterisk (*) are required.</p>
             <form>
                 <div className="form-container ">
@@ -61,10 +61,13 @@ function Contact() {
             </div>
             </form>
             </div>
-            
+                <div className="adress">
+                    <p className="getin">Get In Touch</p>
+                    <p className="con-adress">info@lantespera.com <br/> +91-987654321</p>
+                </div>
+            </div> 
         </div>
         </div>
     )
 }
-
 export default Contact

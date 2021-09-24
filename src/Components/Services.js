@@ -4,7 +4,13 @@ import './Services.css'
 function Services() {
      return (
          <div className="service-section" id="services-section">
+             <div>
              <h1 className="service-title">Services</h1>
+             <p className="lab-port">What we provide for our customers</p>
+                
+             </div>
+            
+
              <div className="webdevelop-section">
              <table>
                      <tbody>

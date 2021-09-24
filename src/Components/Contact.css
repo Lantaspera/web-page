@@ -1,68 +1,68 @@
 #contact-section{
     width: 100vw;
-    background: #B993D6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    height: 615px;
+   
 }
 .container-contact{
     width: 100vw;
-    height: 550px;
-   padding-top: 120px;
-   /* align-items:flex-end; */
+    height: 615px;
    
-  
+}
+.form{
+    width: 64vw;
+    background-color:  #80ced6;
+    height: 615px;
+    float: left;
     
 }
 .title-contact{
     font-family: Times New Roman;
     font-weight: bold;
-    font-size: 75px;
-    line-height: 44px;
+    font-size: 39px;
     color: #000000; 
+    padding-top: 80px;
+    padding-left: 60px;
+    height: 90px;
 }
 .para-contact{
     width: 100vw;
     font-style: italic;
 font-weight: normal;
 font-size: 22px;
-    line-height: 20px;
-    text-align: center;
-    padding-top: 15px; 
+   width: 64vw;
+    padding-left: 60px;
+    padding-top: 10px; 
     color: #000000;
+    height: 30px;
 }
 .para1-contact{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     font-style: italic;
-    margin-left: 18.4%; 
+    padding-left: 60px;
     color: #e93636;
 }
 .form-container{
-    margin-left: 60px;
+    
     margin-top: 10px;
+    
 }
 .box-contact{
     
-width: 456px;
+width: 360px;
 height: 38px;
 background: #FFFFFF;
 border: 1px solid #CCCCCC;
 box-sizing: border-box;
-
 }
 .colm-contact{
     padding-left: 30px;
 }
 .message-box{
-    width: 945px;
+    width: 755px;
 height: 70px;
-
-
 background: #FFFFFF;
-
-
 border: 1px solid #CCCCCC;
 box-sizing: border-box;
 }
@@ -76,8 +76,8 @@ color: #000000;
 .btn-contact{
     width: 77px;
     height: 38px;
-    margin-top: 30px;
-    margin-left: 35%;
+    margin-top: 24px;
+    margin-left: 42%;
     background: #3898EC;
     font-style: normal;
     font-weight: normal;
@@ -85,11 +85,28 @@ color: #000000;
     line-height: 20px;
     border: none;
     color: #FFFFFF;
-
 }
 .hai{
-    margin-left: 15%;
+    margin-left: 7%;
 }
 .message-text{
-    margin-left: 15%;
+    margin-left: 7%;
+}
+.adress{
+ width: 36vw;
+ float: left;
+ background-color:#d5f4e6;
+ height: 615px;
+}
+.getin{
+    padding-top: 110px;
+    padding-left: 35px;
+    font-size: 25px;
+    height: 31px;
+}
+.con-adress{
+    padding-top: 33px;
+    padding-left: 35px;
+    font-size: 30px;
+    height: 31px;
 }
