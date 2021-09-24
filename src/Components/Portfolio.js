@@ -1,22 +1,60 @@
 import React from 'react'
 import './Portfolio.css'
-import ImagePort from './ImagePort'
+
 
 function Portfolio() {
     return (
-        <div className="row" id="portfolio-section">
-            <div className="col-12 col-lg-6">
-            <h2 className="title-port "> Portfolio</h2>
-            <div className="lab-port">What we have done so far</div>
-            <div className="container-port">
-            
-            <ImagePort/>
-            
-            
-            {/* <h2 className="label-port">Testimonial</h2> */}
+        <div className="portfolio-section" id="portfolio-section">
+             <img src="/images/qmark.png" className="qmark-img"/>
+            <h2 className="title-port ">Real expirience with the </h2>
+            <h2 className="title-port2 ">Real stories of our customers</h2>
+            <p className="title-subp">we are gland to share the expirience of our succesfull condributions</p>
+           
+            <div className="logo-port">
+                <div className="port-image">
+                <img src="/images/rdionz.jpg" className="rdionz-img"/>
+                </div >
+                <img src="/images/qutaion mark2.jpg" className="mark-img"/>
+                <div className="radio-para">
+                    <p className="radio-paragf">To start my startup landing page design quickly, I was searching for a  developer comunity . Lantaspera is one of the best webpage developers I have come across. Its so flexible, well organised and creative.</p>
+                </div>
+               <div className="rdio-div">
+                   <h1 className="rdio-det">Dr.Nabeel M Naasar</h1>
+                   <p className="rdio-dis">Co-Founder -Rdionz Biomobility</p>
+               </div>
             </div>
+
+            
+
+            <div className="logo-port">
+                <div className="port-image">
+                <img src="/images/logo3.png" className="tortis-img"/>
+                </div >
+                <img src="/images/qutaion mark2.jpg" className="mark-img2"/>
+                <div className="radio-para">
+                    <p className="radio-paragf">Doing buisness with Lantaspera is very convenient,their quality of work and time management is excellent.More over the ui they created was very nice.We would like to do more buisness with Lantaspera</p>
+                </div>
+               <div className="rdio-div">
+                   <h1 className="rdio-det">Dr.Agney Sadanand </h1>
+                   <p className="rdio-dis">Founder - Tortis</p>
+               </div>
             </div>
             
+            <div className="logo-port">
+                <div className="port-image">
+                <img src="/images/voyiget logo.jpg" className="voyiget-img"/>
+                </div >
+                <img src="/images/qutaion mark2.jpg" className="mark-img3"/>
+                <div className="radio-para">
+                    <p className="radio-paragf">To start my startup landing page design quickly, I was searching for a  developer comunity . Lantaspera is one of the best webpage developers I have come across. Its so flexible, well organised and creative.</p>
+                </div>
+               <div className="rdio-div">
+                   <h1 className="rdio-det">Dr.Nabeel M Naasar</h1>
+                   <p className="rdio-dis">Co-Founder -Rdionz Biomobility</p>
+               </div>
+            </div>
+           
+        
         </div>
     )
 }

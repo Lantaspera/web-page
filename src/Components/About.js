@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
-import TeamMembers from './TeamMembers';
-import team from './TeamMembers'
+
+
 
 
 function About() {
@@ -18,7 +18,7 @@ function About() {
                 </div>
                 
             </div>
-            <TeamMembers/>
+            
         </div>
     
 

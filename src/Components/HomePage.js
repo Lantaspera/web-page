@@ -6,9 +6,8 @@ import Portfolio from './Portfolio'
 import Services from './Services'
 import About from './About'
 import Contact from './Contact'
-import Footer from './FooterSect'
 import FooterSect from './FooterSect'
-
+import TeamMembers from './TeamMembers';
 
 
 
@@ -23,8 +22,9 @@ function HomePage() {
                     
                         <ImageFront/>
                        <Services/>
-                       {/* <Portfolio/> */}
+                       <Portfolio/>
                        <About/>
+                       <TeamMembers/>
                        <Contact/>
                        <FooterSect/>
 

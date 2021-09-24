@@ -1,68 +1,118 @@
-#portfolio-section{
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-
-    width: 100vw;
-    height: 100vh;
+.portfolio-section{
+    margin-top: 10px;
+    background: #D5FAFC;
+     width:100vw ;
+     height: 800px;
+}
+.qmark-img{
+    width: 250px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 20px;
+    z-index: 2;
 }
 
 .title-port{
-    font-family: Times New Roman;
-    font-weight: bold;
-    font-size: 75px;
-    line-height: 44px;
-    margin-top: 150px; 
-    width: 100vw;
-    text-align: center;
-    color: black;
-    
+       
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 44px;
+        margin-top: -50px; 
+        color: #000000;
+        padding-left:162px;
+        z-index: 8;
 }
-.container-port{
-    width: 100vw;
-    height: 505px;
-    margin-top: 40px;
+.title-port2{
    
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 44px;
+    margin-top: 0px; 
+    color: #000000;
+    padding-left:162px;
+    z-index: 8;
 }
-.lab-port{
-    font-style: italic;
-font-weight: normal;
-font-size: 22px;
-line-height: 24px;
-    padding-top: 20px;
-    text-align: center;
+.title-subp{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
     color: #000000;
     width: 100vw;
-   
-
+    padding-left: 162px;
+    padding-bottom: 0px;
 }
-.card-port{
-    margin-top: 100px;
-    width: 100px;
-    height: 267.89px;
-    margin-left: 200px;
-    
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    width: 278px;
-    border-radius: 0px; 
-    background:#FFFFFF;
-    box-shadow: 0.5px ;
+.logo-port{
+    width: 400px;
+    height: 468px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-left: 55px;
+    margin-top: 50px;
     float: left;
 }
-.label-port{
-    font-style: italic;
-font-weight: normal;
-font-size: 22px;
-line-height: 24px;
-    padding-top: 20px;
-    margin-left: 500px;
-    color: #000000;
-    margin-top: 450px;
+.rdionz-img{
+    width: 190px;
+    height: 70px;
+    margin-left: 10px;
 }
-.img-port{
-    width: 250px;
-    height: 171.73px;
-    margin-top:50px;
-    border-radius: 0;
-    margin-left: 5px;
+.mark-img{
+    width: 20px;
+    height: 15px;
+    margin-top: 3px;
+    margin-left: 15px;
+    
+}
+.radio-para{
+ margin-left: 40px;
+ width: 300px;
+ padding: 5px;
+}
+.radio-paragf{
+   
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+}
+.rdio-div{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.rdio-det{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+.rdio-dis{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+.tortis-img{
+    width: 190px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.mark-img2{
+    width: 20px;
+    height: 15px;
+    margin-top: 26px;
+    margin-left: 15px;
+}
+.voyiget-img{
+    width: 190px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.mark-img3{
+    width: 20px;
+    height: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
 }

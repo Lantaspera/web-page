@@ -27,16 +27,16 @@ const Navbar = () => {
               }}>
 
            <nav class="navbar navbar-expand-lg navbar-light bg-transperant  ">
-  <div class="container">
+  <div className="container">
       <div>
-    <a class="navbar-brand"  href="#" 
+    <a className="navbar-brand"  href="#" 
      >LANTASPERA </a>
 
     <p className="tech">TECHNOLOGIES</p>
     </div>
     
     
-    <button class="navbar-toggler" 
+    <button className="navbar-toggler" 
     type="button" data-bs-toggle="collapse" 
     data-bs-target="#navbarSupportedContent" 
     aria-controls="navbarSupportedContent" 
@@ -45,22 +45,22 @@ const Navbar = () => {
     onClick={() => setShow(!show)}>
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class= {`collapse navbar-collapse ${show ? "show" : ""}`} >
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#home-section">HOME</a>
+    <div className= {`collapse navbar-collapse ${show ? "show" : ""}`} >
+      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="#home-section">HOME</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services-section">SERVICES</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#services-section">SERVICES</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio-section">PORTFOLIO</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#portfolio-section">PORTFOLIO</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about-section">ABOUT</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#about-section">ABOUT</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact-section">CONTACT</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#contact-section">CONTACT</a>
         </li>
         
         
