@@ -94,7 +94,7 @@ function TeamMembers() {
                   </div>
 
                   <div className="profile-details">
-                      <h3 className="profile-details1" >Gagana Karpurachalil </h3>
+                      <h3 className="profile-details1" >Gagana Karpoorachalil </h3>
                       <h5 className="profile-details2">Co-Founder</h5>
                       <h5 className="profile-details2">CDO</h5>
                       
