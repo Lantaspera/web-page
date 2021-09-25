@@ -17,15 +17,15 @@ function TeamMembers() {
         
         <h1 className="heading-team">Our Team</h1>
 
-            <Carousel width={2000} showArrows={false} showStatus={false} showThumbs={false} axis={"horizontal"} autoPlay={true} 
+            <Carousel  showArrows={false} showStatus={false} showThumbs={false} axis={"horizontal"} autoPlay={true} 
                     swipeable={true} autoFocus={true}
-                    interval={2500} infiniteLoop autoFocus centerMode centerSlidePercentage={35} showIndicators={false}>
+                    interval={2500} infiniteLoop autoFocus centerMode={true} centerSlidePercentage={41} showIndicators={false}>
 
 
               <div className="profiles">
                   <div className="pro-pic">
                     <img src="https://avatars.githubusercontent.com/u/84629891?v=4" class="profile-img"/>
-                  </div>
+                    </div>
                   <div className="profile-details">
                       <h3 className="profile-details1" >Akshay Nambiar PV </h3>
                       <h5 className="profile-details2">Co-Founder</h5>
@@ -90,7 +90,7 @@ function TeamMembers() {
 
                <div className="profiles">
                   <div className="pro-pic">
-                    <img src="https://ca.slack-edge.com/T0246ARE8UT-U024JU31P41-ebfa930c4b2a-72" class="profile-img"/>
+                    <img src="/images/gagananpic.jpg" class="profile-img"/>
                   </div>
 
                   <div className="profile-details">
