@@ -36,7 +36,7 @@ const Navbar = () => {
     </div>
     
     
-    <button className="navbar-toggler" 
+    <button className="navbar-toggler" background="blue"
     type="button" data-bs-toggle="collapse" 
     data-bs-target="#navbarSupportedContent" 
     aria-controls="navbarSupportedContent" 

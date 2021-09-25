@@ -9,23 +9,37 @@
   height: 250px;
     margin-top: 5px; 
     }
-.title-about{
-    font-family: Times New Roman;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 44px;
-    width: 100vw;
-    margin-top: 50px; 
+.about-title{
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 40px;
+  width: 100vw;
+  margin-top: 50px; 
+  color: #000000;
+  padding-left:650px;
+}
+.about-port{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
     color: #000000;
-    padding-left:600px;
+    width: 100vw;
+    padding-left: 610px;
+}
+.about-port2{
+    width: 100vw;
+    padding-left: 665px;
+    padding-bottom: 5px;
 }
 .para-about{
     font-style: normal;
 font-weight: normal;
-font-size: 16px;
-line-height: 28px;
-margin: 60px;
+font-size: 18px;
+line-height: 32px;
+margin-left: 65px;
+margin-right: 65px;
 
-padding-top: 10px; 
 color: #000000;
 }
