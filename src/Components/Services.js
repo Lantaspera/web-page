@@ -1,13 +1,16 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Services.css'
+
 
 function Services() {
      return (
-         <div className="service-section" id="services-section">
+        <div className="row"  id="services-section" >
+        <div className="col-12 col-lg-6">
+         <div className="service-section">
              <div>
              <h1 className="service-title">Services</h1>
              <p className="lab-port">What we provide for our customers</p>
-                
+             <p className="lab-port2">-----------------------------</p>
              </div>
             
 
@@ -106,7 +109,8 @@ function Services() {
                  </table> 
              </div>
          </div>
-        
+        </div>
+        </div>
     )
 }
 export default Services

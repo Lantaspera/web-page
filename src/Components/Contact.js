@@ -56,14 +56,16 @@ function Contact() {
                 <textarea className="message-box" type="text" />
                 <div>
                 </div>
-                <button className="btn-contact">Submit</button>
+                <button className="btn-contact">Submit Message</button>
                 </div>
             </div>
             </form>
             </div>
                 <div className="adress">
                     <p className="getin">Get In Touch</p>
-                    <p className="con-adress">info@lantespera.com <br/> +91-987654321</p>
+                    <p className="con-adress">www.lantespera.com </p><br/>
+                    <p className="getin2">Follow Us In</p>
+                    <p className="con-adress2">facebook<br/>instagram<br/>youtube </p>
                 </div>
             </div> 
         </div>
