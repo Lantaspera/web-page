@@ -12,7 +12,7 @@ function About() {
             <div className="col-12 col-lg-6">
                 <div className="container-about">
                     <div className="title-about">About us</div>
-                    <p className="para-about">(Company description) A rich text element can be used with static or dynamic content. For static content, just drop the element into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!</p>     
+                    <p className="para-about">Lantaspera Technologies is an advanced IT solutions company providing customized software development, web application developent, mobile application development and IT consulting services. We offers a full range of IT services to support your buisness infrastructure providing latest cutting edge technology solutions. We provide services to clients from various industries like hospitality, healthcare, services, tourism, IT companies, infrastructure, retailers, real estate, manufacturing, banks & online media houses. Our vision is to earn trust and to deliver leading edge secure technologies ,intelligent technical solutions, secure access to any services, data and information anytime, anywhere to the customers.</p>     
                     
                    
                 </div>
