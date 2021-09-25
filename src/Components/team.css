@@ -125,7 +125,7 @@
 
 .pro-pic{
   
-  width: 115px;
+  width: 120px;
   height: 115px; 
 
  margin-left: 200px;
@@ -141,11 +141,12 @@ border-radius: 50%;
 
 }
 .profile-details{
-  width: 300px;
+  width: 400px;
   height: 100px;
   
-  margin-left: 300px;
+  margin-left: 250px;
   margin-top: 70px;
+  
   
 }
 .profile-details1{
