@@ -1,6 +1,7 @@
 .service-section{
   margin-top: 5px;
-  margin-left: 80px;
+ 
+  width: 100vw;
 }
 .service-title{
   font-family:monospace;
@@ -32,7 +33,7 @@ line-height: 24px;
 .webdevelop-section{
   margin-left: 24px;
   margin-right: 24px;
-  width: 84.3vw;
+  width: 95.5vw;
   z-index: 1;
   position: relative;
 }
@@ -44,19 +45,27 @@ line-height: 24px;
   right: 0;
   bottom: 0;
   background: #D5FAFC;
-  z-index: -1;
+  z-index: -7;
   transition: transform 300ms ease-in-out;
   transform:  scaleX(0);
   transform-origin: left;
+  
 }
 .webdevelop-section:hover:before,
 .webdevelop-section:focus:before{
   transform: scaleX(1);
+  
 }
 .webdevelop-image{
   height: 200px;
   width: 300px; 
+  border-radius: 5px;
+ transition: transform 300ms ease-in-out;
 }
+.webdevelop-section:hover .webdevelop-image{
+  transform: scale(1.1);
+  }
+
 .webdevelop-title{
   font-style: normal;
   font-weight: bold;
@@ -101,6 +110,12 @@ line-height: 24px;
 .webdesign-image{
   height: 200px;
   width: 300px;
+  border-radius: 5px;
+  text-align: center;
+ transition: transform 300ms ease-in-out;
+}
+.webdesign-section:hover .webdesign-image{
+  transform: scale(1.1);
 }
 .webdesign-title{
   font-style: normal;
@@ -120,7 +135,7 @@ font-style: normal;
 .appdevelop-section{
   margin-left: 24px;
   margin-right: 9px;
-  width: 84.3vw;
+  width: 95.5vw;
   z-index: 1;
   position: relative;
 }
@@ -141,6 +156,16 @@ font-style: normal;
 .appdevelop-section:focus:before{
   transform: scaleX(1);
 }
+.appdevelop-image{
+  height: 200px;
+  width: 300px; 
+  border-radius: 5px;
+ transition: transform 300ms ease-in-out;
+}
+.appdevelop-section:hover .appdevelop-image{
+  transform: scale(1.1);
+  }
+
 .graphicdesign-section{
   margin-left: 24px;
   margin-right: 9px;
@@ -165,10 +190,21 @@ font-style: normal;
 .graphicdesign-section:focus:before{
   transform: scaleX(1);
 }
+.graphicdesign-image{
+  height: 200px;
+  width: 300px; 
+  border-radius: 5px;
+ transition: transform 300ms ease-in-out;
+}
+.graphicdesign-section:hover .graphicdesign-image{
+  transform: scale(1.1);
+  }
+
+
 .digitalmarket-sec{
   margin-left: 24px;
   margin-right: 9px;
-  width: 84.3vw;
+  width: 95.5vw;
   z-index: 1;
   position: relative;
 }
@@ -189,6 +225,17 @@ font-style: normal;
 .digitalmarket-sec:focus:before{
   transform: scaleX(1);
 }
+.digitalmarket-image{
+  height: 200px;
+  width: 300px; 
+  border-radius: 5px;
+ transition: transform 300ms ease-in-out;
+}
+.digitalmarket-sec:hover .digitalmarket-image{
+  transform: scale(1.1);
+  }
+
+
 .social-section{
   margin-left: 24px;
   margin-right: 9px;
@@ -213,3 +260,12 @@ font-style: normal;
 .social-section:focus:before{
   transform: scaleX(1);
 }
+.social-image{
+  height: 200px;
+  width: 300px; 
+  border-radius: 5px;
+ transition: transform 300ms ease-in-out;
+}
+.social-section:hover .social-image{
+  transform: scale(1.1);
+  }

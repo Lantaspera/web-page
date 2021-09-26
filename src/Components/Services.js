@@ -19,7 +19,9 @@ function Services() {
                      <tbody>
                          <tr>
                             <td>
-                                <img className="webdevelop-image" src="/images/img-1.jpeg"/>
+                                
+                                <img className="webdevelop-image"  src="/images/img-1.jpeg"/>
+                                
                              </td>
                              <td>
                                 <p className="webdevelop-title">Web Development </p>
@@ -37,7 +39,7 @@ function Services() {
                              
                              <td>
                                  <p className="webdesign-title">Web Design</p>
-                                 <p className="webdesign-content">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers. Web design also includes web apps, mobile apps, and user interface design.</p>
+                                 <p className="webdesign-content">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user <br/>experience aspects of website development rather than software development. Web design used to be focused<br/> on designing websites for desktop browsers. Web design also includes web apps, mobile apps, and user interface design.</p>
                              </td>
                              <td>
                                 <img className="webdesign-image" src="/images/img-2.jpg"/>
@@ -51,7 +53,7 @@ function Services() {
                      <tbody>
                          <tr>
                             <td>
-                                <img className="webdevelop-image" src="/images/img-3.jpg"/>
+                                <img className="appdevelop-image" src="/images/img-3.jpg"/>
                              </td>
                              <td>
                                 <p className="webdevelop-title">App Development </p>
@@ -71,7 +73,7 @@ function Services() {
                                  <p className="webdesign-content">Graphic Design is the process of creating visual content to communicate information/ messages to the masses. Considered to be a sub-set of Communication Design, Graphic Design is used to create visual content using elements such as photographs, colours, typography, illustrations, and icons.</p>
                              </td>
                              <td>
-                                <img className="webdesign-image" src="/images/img-4.jpg"/>
+                                <img className="graphicdesign-image" src="/images/img-4.jpg"/>
                              </td>
                          </tr>
                      </tbody>
@@ -82,7 +84,7 @@ function Services() {
                      <tbody>
                          <tr>
                             <td>
-                                <img className="webdevelop-image" src="/images/img-5.jpg"/>
+                                <img className="digitalmarket-image" src="/images/img-5.jpg"/>
                              </td>
                              <td>
                                 <p className="webdevelop-title">Digital Market</p>
@@ -102,7 +104,7 @@ function Services() {
                                  <p className="webdesign-content">A Social Media Campaign is a coordinated marketing effort that is reinforced for the attainment of the business goal using one or more social media platforms.It is an organized marketing effort to increase consumer awareness, interest, and loyalty to an organization, brand, product, or service, through social media channels.</p>
                              </td>
                              <td>
-                                <img className="webdesign-image" src="/images/img-6.jpg"/>
+                                <img className="social-image" src="/images/img-6.jpg"/>
                              </td>
                          </tr>
                      </tbody>
