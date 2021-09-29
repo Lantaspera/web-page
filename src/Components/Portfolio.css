@@ -2,11 +2,11 @@
     margin-top: 10px;
     background: #D5FAFC;
      width:100vw ;
-     height: 800px;
+     height: auto;
 }
 .qmark-img{
-    width: 250px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     margin-left: 30px;
     margin-top: 20px;
     z-index: 2;
@@ -15,39 +15,37 @@
 .title-port{
        
         font-weight: 700;
-        font-size: 47px;
-        line-height: 44px;
-        margin-top: -50px; 
+        font-size: 3vw;
         color: #000000;
-        padding-left:162px;
+        
         z-index: 8;
+        display: flex;
 }
 .title-port2{
    
-    font-weight: 700;
-    font-size: 47px;
-    line-height: 44px;
-    margin-top: 0px; 
-    color: #000000;
-    padding-left:162px;
-    z-index: 8;
+        font-weight: 700;
+        font-size: 4vw;
+        
+        color: #000000;
+        margin-left: 1vw;
+        z-index: 8;
+        display: flex;
 }
 .title-subp{
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 2vw;
     color: #000000;
     width: 100vw;
-    padding-left: 162px;
+   
     padding-bottom: 0px;
+    display: flex;
 }
 .logo-port{
-    width: 400px;
-    height: 468px;
+    
     background: #FFFFFF;
     border-radius: 4px;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 50px;
     float: left;
 }
@@ -65,7 +63,7 @@
 }
 .radio-para{
  margin-left: 40px;
- width: 300px;
+ /* width: 300px; */
  padding: 5px;
 }
 .radio-paragf{
