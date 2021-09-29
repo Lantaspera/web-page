@@ -1,118 +1,51 @@
 import React from 'react'
 import './Services.css'
-
+import { Row ,Col} from 'react-bootstrap';
 
 function Services() {
      return (
-        <div className="row"  id="services-section" >
-        <div className="col-12 col-lg-6">
+        <Row className="row">
+            <Col xs={12} className="about-title justify-content-center">Services</Col>
+               <Col xs={12} > <p className="about-port justify-content-center">What we provide for our customers</p></Col>
+               <Col xs={12} > <p className="about-port2 justify-content-center">-----------------------------</p></Col>
+        
          <div className="service-section">
-             <div>
-             <h1 className="service-title">Services</h1>
-             <p className="lab-port">What we provide for our customers</p>
-             <p className="lab-port2">-----------------------------</p>
-             </div>
+             
             
 
-             <div className="webdevelop-section">
-             <table>
-                     <tbody>
-                         <tr>
-                            <td>
-                                
-                                <img className="webdevelop-image"  src="/images/img-1.jpeg"/>
-                                
-                             </td>
-                             <td>
-                                <p className="webdevelop-title">Web Development </p>
-                                <p className="webdevelop-content">Web development is the work involved in developing a website for the internet. It includes aspects such as web design, web publishing, web programming, and database management. </p> 
-                             </td>
-                             
-                         </tr>
-                     </tbody>
-                 </table> 
-             </div>
-             <div className="webdesign-section">
-                 <table>
-                     <tbody>
-                         <tr>
-                             
-                             <td>
-                                 <p className="webdesign-title">Web Design</p>
-                                 <p className="webdesign-content">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user <br/>experience aspects of website development rather than software development. Web design used to be focused<br/> on designing websites for desktop browsers. Web design also includes web apps, mobile apps, and user interface design.</p>
-                             </td>
-                             <td>
-                                <img className="webdesign-image" src="/images/img-2.jpg"/>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table>
-             </div>
-             <div className="appdevelop-section">
-                 <table>
-                     <tbody>
-                         <tr>
-                            <td>
-                                <img className="appdevelop-image" src="/images/img-3.jpg"/>
-                             </td>
-                             <td>
-                                <p className="webdevelop-title">App Development </p>
-                                <p className="webdevelop-content"> App development is the process by which software applications are designed to run on mobile devices, such as a smartphone or tablet computer. These applications can be pre-installed on phones during manufacturing platforms, or delivered as web applications using server-side or client-side processing to provide an "application-like" experience within a Web browser.</p> 
-                             </td>
-                             
-                         </tr>
-                     </tbody>
-                 </table>
-             </div>
-             <div className="graphicdesign-section">
-             <table>
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <p className="webdesign-title">Graphic Design</p>
-                                 <p className="webdesign-content">Graphic Design is the process of creating visual content to communicate information/ messages to the masses. Considered to be a sub-set of Communication Design, Graphic Design is used to create visual content using elements such as photographs, colours, typography, illustrations, and icons.</p>
-                             </td>
-                             <td>
-                                <img className="graphicdesign-image" src="/images/img-4.jpg"/>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table> 
-             </div>
-             <div className="digitalmarket-sec">
-             <table>
-                     <tbody>
-                         <tr>
-                            <td>
-                                <img className="digitalmarket-image" src="/images/img-5.jpg"/>
-                             </td>
-                             <td>
-                                <p className="webdevelop-title">Digital Market</p>
-                                <p className="webdevelop-content">Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.</p> 
-                             </td>
-                             
-                         </tr>
-                     </tbody>
-                 </table> 
-             </div>
-             <div className="social-section">
-             <table>
-                     <tbody>
-                         <tr>
-                             <td>
-                                 <p className="webdesign-title">Social Media Campaign</p>
-                                 <p className="webdesign-content">A Social Media Campaign is a coordinated marketing effort that is reinforced for the attainment of the business goal using one or more social media platforms.It is an organized marketing effort to increase consumer awareness, interest, and loyalty to an organization, brand, product, or service, through social media channels.</p>
-                             </td>
-                             <td>
-                                <img className="social-image" src="/images/img-6.jpg"/>
-                             </td>
-                         </tr>
-                     </tbody>
-                 </table> 
-             </div>
+            <Row className="webdesign-section">
+                <Col xs={12} lg={3}><img className="webdevelop-image" src="/images/img-1.jpeg"/></Col>
+                <Col xs={12} lg={9}> <p className="webdevelop-title">Web Development </p> <p className="webdevelop-content">Web development is the work involved in developing a website for the internet. It includes aspects such as web design, web publishing, web programming, and database management. </p> </Col> 
+            </Row>
+
+            <Row className="webdesign-section">
+                <Col xs={12} lg={9}> <p className="webdevelop-title">Web Design</p> <p className="webdevelop-content">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers. Web design also includes web apps, mobile apps, and user interface design. </p> </Col> 
+                <Col xs={12} lg={3}><img className="webdevelop-image" src="/images/img-2.jpg"/></Col>
+            </Row>
+            
+            <Row className="webdesign-section">
+                <Col xs={12} lg={3}><img className="webdevelop-image" src="/images/img-3.jpg"/></Col>
+                <Col xs={12} lg={9}> <p className="webdevelop-title">App Development</p> <p className="webdevelop-content">App development is the process by which software applications are designed to run on mobile devices, such as a smartphone or tablet computer. These applications can be pre-installed on phones during manufacturing platforms, or delivered as web applications using server-side or client-side processing to provide an "application-like" experience within a Web browser.</p> </Col> 
+            </Row>
+
+            <Row className="webdesign-section">
+                <Col xs={12} lg={9}> <p className="webdevelop-title">Graphic Design</p> <p className="webdevelop-content">Graphic Design is the process of creating visual content to communicate information/ messages to the masses. Considered to be a sub-set of Communication Design, Graphic Design is used to create visual content using elements such as photographs, colours, typography, illustrations, and icons.</p> </Col> 
+                <Col xs={12} lg={3}><img className="webdevelop-image" src="/images/img-4.jpg"/></Col>
+            </Row>
+             
+            <Row className="webdesign-section">
+                <Col xs={12} lg={3}><img className="webdevelop-image" src="/images/img-5.jpg"/></Col>
+                <Col xs={12} lg={9}> <p className="webdevelop-title">Digital Market</p> <p className="webdevelop-content">Digital marketing is the component of marketing that utilizes internet and online based digital technologies such as desktop computers, mobile phones and other digital media and platforms to promote products and services.</p> </Col> 
+            </Row>
+
+            <Row className="webdesign-section">
+                <Col xs={12} lg={9}> <p className="webdevelop-title">Social Media Campaign</p> <p className="webdevelop-content">A Social Media Campaign is a coordinated marketing effort that is reinforced for the attainment of the business goal using one or more social media platforms.It is an organized marketing effort to increase consumer awareness, interest, and loyalty to an organization, brand, product, or service, through social media channels.</p> </Col> 
+                <Col xs={12} lg={3}><img className="webdevelop-image" src="/images/img-6.jpg"/></Col>
+            </Row>
+             
          </div>
-        </div>
-        </div>
+        
+        </Row>
     )
 }
 export default Services
