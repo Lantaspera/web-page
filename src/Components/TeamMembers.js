@@ -41,7 +41,7 @@ function TeamMembers() {
                   </div>
 
                   <div className="profile-details">
-                      <h3 className="profile-details1" >Azhar Ali Kalarikal </h3>
+                      <h3 className="profile-details1" >AZHAR KALARICKAL</h3>
                       <h5 className="profile-details2">Co-Founder</h5>
                       <h5 className="profile-details2">CTO</h5>
                      
