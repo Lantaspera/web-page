@@ -14,10 +14,7 @@
   font-weight: bold;
   font-size: 35px;
   line-height: 40px;
-  width: 100vw;
-  margin-top: 50px; 
-  color: #000000;
-  padding-left:650px;
+  display: flex;
 }
 .about-port{
     font-style: italic;
@@ -25,21 +22,20 @@
     font-size: 18px;
     line-height: 24px;
     color: #000000;
-    width: 100vw;
-    padding-left: 610px;
+    display: flex;
 }
 .about-port2{
-    width: 100vw;
-    padding-left: 665px;
-    padding-bottom: 5px;
+    display: flex;
 }
 .para-about{
     font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 32px;
-margin-left: 65px;
-margin-right: 65px;
+text-align: center; 
+/* margin-left: 65px;
+margin-right: 65px; */
+padding-left: 20px;
 
 color: #000000;
 }
