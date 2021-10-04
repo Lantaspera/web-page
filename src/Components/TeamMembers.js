@@ -209,6 +209,7 @@ function TeamMembers() {
 
 
            </Carousel>  
+           <div className="navbar-contact" id="contact-section"></div>
           </div>
       
     
