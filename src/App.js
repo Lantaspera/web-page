@@ -22,13 +22,13 @@ const App = () => {
     
   <div>
     {/* <HomePage/> */}
-    {/* <Services/>
+    <Services/>
+    <Portfolio/>
     <About/>
     <TeamMembers/>
     <Contact/> 
-    <FooterSect/> */}
-    <Portfolio/>
-    
+    <FooterSect/>
+   
   </div>
   
     
