@@ -6,7 +6,7 @@ import './Portfolio.css'
 function Portfolio() {
     return (
      
-            <Row className="portfolio-section" id="portfolio-section">
+            <Row className="portfolio-section" >
                 <Row xs={12}>
                 <Col xs={3}><img src="/images/qmark.png" className="qmark-img" /></Col>
                <Col xs={9}></Col>
@@ -43,7 +43,7 @@ function Portfolio() {
                     </Col>
                     
                 </Row>
-               
+                <div className="navbar-contact" id="about-section"></div>
             </Row>
             /* <Row>
             <Col xs={12} md={4} className="logo-port">
