@@ -1,8 +1,8 @@
-.portfolio-section{
-    margin-top: 10px;
+/* .portfolio-section{
+    
     background: #D5FAFC;
      width:100vw ;
-     height: auto;
+   height: 100vh;
 }
 .qmark-img{
     width: 100%;
@@ -27,7 +27,7 @@
         font-size: 4vw;
         
         color: #000000;
-        margin-left: 1vw;
+       
         z-index: 8;
         display: flex;
 }
@@ -36,9 +36,9 @@
     font-weight: normal;
     font-size: 2vw;
     color: #000000;
-    width: 100vw;
+
    
-    padding-bottom: 0px;
+    
     display: flex;
 }
 .logo-port{
@@ -47,6 +47,7 @@
     border-radius: 4px;
     margin-left: 55px;
     margin-top: 50px;
+    width: 100vw;
     float: left;
 }
 .rdionz-img{
@@ -63,8 +64,8 @@
 }
 .radio-para{
  margin-left: 40px;
- /* width: 300px; */
- padding: 5px;
+  width: 300px; */
+ /* padding: 5px;
 }
 .radio-paragf{
    
@@ -111,6 +112,75 @@ line-height: 32px;
 .mark-img3{
     width: 20px;
     height: 15px;
-    margin-top: 30px;
+ 
+ .title-port   margin-top: 30px;
     margin-left: 15px;
+} */ 
+.portfolio-section{
+    
+    background: #D5FAFC;
+    width: 100vw;
+    height: auto;
+    
+}
+.qmark-img{
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+}
+.title-port{
+    font-weight: bold;
+    font-size: 400%;
+    color: #000000;
+   margin-left: 15vw;
+   z-index: 8;
+   margin-top: -8%;
+   
+  
+}
+.title-sub{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 15vw;
+}
+.revw-port{
+    background-color: #fff;
+   margin: 2vw;
+   height: 450px;
+   margin-top: 3vw;
+}
+.total-port{
+    margin-left: 5vw;
+}
+.logo-image{
+    width: 40%;
+    height: 10%;
+    margin-left:2.5vw ;
+}
+.mark-img{
+    width: 7%;
+    margin-left:2vw ;
+}
+.content-paragf{
+    text-align:justify;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+width:100% ;
+padding: 2vw;
+}
+.name-founder{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 2vw;
+}
+.cmpny-dis{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #969BAB;
+    padding-left: 2vw;
 }
