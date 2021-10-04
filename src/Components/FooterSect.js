@@ -1,74 +1,43 @@
 import React from 'react'
 import './footer.css'
+import { Row,Col } from 'react-bootstrap'
 
 function FooterSect() {
     return (
-        <div className="row">
-        <div className="col-12 col-lg-6">
-        <div className="container-footer">
-            <div className="image-sect">
-                <img />
-            </div>
-            <div className="table-footer">
-                <table>
-                <tbody>
-                    <tr>
-                        <td >
-                    <div className="first-row">    Services </div>
-                        </td>
-                        <td className="colm2">
-                     <div className="first-row">   About</div>
-                        </td>
-                        <td className="colm3">
-                     <div className="first-row">   Help</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td >
-                    <div className="rows">    Campaigns</div>
-                        </td>
-                        <td className="colm2">
-                     <div  className="rows">   Benefits</div>
-                        </td>
-                        <td className="colm3">
-                     <div  className="rows">   FAQs</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td >
-                    <div  className="rows">    Web app developments </div>
-                        </td>
-                        <td className="colm2">
-                     <div  className="rows">  Team</div>
-                        </td>
-                        <td className="colm3">
-                     <div  className="rows">   Contact Us</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td >
-                    <div  className="rows">    Text Link </div>
-                        </td>
-                        <td className="colm2">
-                     <div  className="rows">   Careers</div>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td >
-                     <div  className="rows">   Branding</div>
-                        </td>
-                        </tr>
+        <Row className="main-row">
+            <Col xs={12} lg={12}>
+                
+            <Col xs={12} lg={12} className="main-pictr" ><img  /></Col>      
+           
+          <Col className="main-clm"  lg={6}>
+        
+                <Row className="main-title" xs={3} lg={3}>
+                
+                    <Col><p>Servicers</p></Col>
+                    <Col><p>About</p></Col>
+                    <Col><p>Help</p></Col>
                     
-                </tbody>
-
-            </table>
-</div>
-<div className="copyryt">Copyright © 2021 Lantaspera technologies. All rights reserved.</div>
-            </div>
-            
-        </div>
-        </div>
-    )
-}
-
+                </Row>
+                <Row className="subs-title" xs={3} lg={3}>
+                    <Col><p>Campaigns</p></Col>
+                    <Col><p>Benefits</p></Col>
+                    <Col><p>FAQs</p></Col>
+                   
+                </Row>
+                <Row className="subs-title" xs={3} lg={3}>
+                    <Col><p>Web developments</p></Col>
+                    <Col><p>Team</p></Col>
+                    <Col><p>Contact Us</p></Col>
+                   
+                </Row>
+                <Row className="subs-title" xs={3} lg={3}>
+                    <Col><p>Branding</p></Col>
+                    <Col><p>careers</p></Col>
+                    
+                </Row>
+           </Col>    
+            </Col>
+            <Col className="copyryt" xs={12} lg={12}><p>Copyright © 2021 Lantaspera technologies. All rights reserved.</p></Col>
+        </Row>
+  )}
 export default FooterSect

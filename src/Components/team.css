@@ -110,20 +110,49 @@
 } */
 .team-section{
   width: 100vw;
+ 
   margin-top: 5px;
 
   height: 300px;
+  margin-bottom: 10px;
+}
+.profiles{
+  margin-top: 5px;
 
+}
+.pro-pic{
+
+  margin: 10%;
+
+}
+.profile-img{
+
+  height: 170px; 
+  border-radius: 20%;
 }
 .heading-team{
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 20px;
-  margin-left: 60px;
+  margin-left: 6%;
   margin-top: 50px;
 }
 
+.profile-details1{
+   font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.profile-details2{
+   font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #969BAB;
+   
+}
+/*
 .pro-pic{
   
   width: 120px;
@@ -165,4 +194,4 @@ border-radius: 50%;
     line-height: 24px;
     color: #969BAB;
    
-}
+} */
