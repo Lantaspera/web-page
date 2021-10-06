@@ -64,7 +64,7 @@ function TeamMembers() {
 
                <div className="profiles">
                   <div className="pro-pic">
-                    <img src="/images/gagananpic.jpg" class="profile-img"/>
+                    <img src="https://drive.google.com/file/d/1HQWoqLPdCXkJFkNzj0AntjJkyOTPK55w/view?usp=sharing" class="profile-img"/>
                  
                   <div className="profile-details">
                       <h3 className="profile-details1" >Gagana Karpurachalil </h3>
@@ -157,7 +157,7 @@ function TeamMembers() {
 
                <div className="profiles">
                   <div className="pro-pic">
-                    <img src="/images/gagananpic.jpg" class="profile-img"/>
+                    <img src="https://drive.google.com/file/d/1HQWoqLPdCXkJFkNzj0AntjJkyOTPK55w/view?usp=sharing" class="profile-img"/>
                  
                   <div className="profile-details">
                       <h3 className="profile-details1" >Gagana Karpurachalil </h3>

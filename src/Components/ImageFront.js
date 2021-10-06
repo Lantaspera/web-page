@@ -7,14 +7,14 @@ import Navbar from './navbar'
 import FlottingWindow from './FlottingWindow'
 
 const fadeImages = [
-  '/images/image-1.jpg',
-  '/images/image-5.jpg',
-  '/images/image-3.jpg',
-  '/images/image-4.jpg'
+  'https://drive.google.com/file/d/1EMb4I8kqbFBJa8Q_n5UDl6DqBp-hrLra/view?usp=sharing',
+  'https://drive.google.com/file/d/1A-D-PQsDbEjWVhSzS5xFGBE6LAkZn28L/view?usp=sharing',
+  'https://drive.google.com/file/d/1vza0bvCdqsDbpAl5wJ7wa9bE62GiTZIl/view?usp=sharing',
+  'https://drive.google.com/file/d/1vza0bvCdqsDbpAl5wJ7wa9bE62GiTZIl/view?usp=sharing'
 
 ];
 
-var ReactRotatingText = require('react-rotating-text');
+
 
 
 function ImageFront() {
