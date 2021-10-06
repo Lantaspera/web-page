@@ -17,7 +17,7 @@ function TeamMembers() {
         
         <h1 className="heading-team">Our Team</h1>
 
-            <Carousel xs={6} showArrows={false} showStatus={false} mobileFirst={true} showThumbs={false} axis={"horizontal"} autoPlay={true} 
+            <Carousel xs={6} showArrows={false} showStatus={false} showThumbs={false} axis={"horizontal"} autoPlay={true} 
                     swipeable={true} autoFocus={true}
                     interval={2500} infiniteLoop autoFocus centerMode={true} centerSlidePercentage={20} showIndicators={false}>
 
